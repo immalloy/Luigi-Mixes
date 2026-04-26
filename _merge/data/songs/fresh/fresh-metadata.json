@@ -1,7 +1,22 @@
 [
-  {
-    "op": "add",
-    "path": "/playData/songVariations/-",
-    "value": "luigi"
-  }
+  [
+    {
+      "op": "test",
+      "path": "/playData/songVariations",
+      "value": null,
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/playData/songVariations",
+      "value": []
+    }
+  ],
+  [
+    {
+      "op": "add",
+      "path": "/playData/songVariations/-",
+      "value": "luigi"
+    }
+  ]
 ]

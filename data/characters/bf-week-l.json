@@ -1,0 +1,70 @@
+{
+  "version": "1.0.0",
+  "name": "Boyfriend (Week L)",
+  "renderType": "multisparrow",
+  "assetPath": "characters/bf-week-l",
+  "flipX": true,
+  "offsets": [17, 14],
+  "cameraOffsets": [-18, 36],
+  "death": {
+    "cameraOffsets": [-73, 42]
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "idle"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "left"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "down"
+    },
+    {
+      "name": "singUP",
+      "prefix": "up"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "right"
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "miss left"
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "miss down"
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "miss up"
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "miss right"
+    },
+    {
+      "name": "hey",
+      "prefix": "hey"
+    },
+    {
+      "assetPath": "characters/bf-dies-week-l",
+      "name": "firstDeath",
+      "prefix": "dies"
+    },
+    {
+      "assetPath": "characters/bf-dies-week-l",
+      "name": "deathLoop",
+      "prefix": "dead loop",
+      "looped": true
+    },
+    {
+      "assetPath": "characters/bf-dies-week-l",
+      "name": "deathConfirm",
+      "prefix": "retry"
+    }
+  ]
+}

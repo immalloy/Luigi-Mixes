@@ -1,0 +1,75 @@
+{
+  "version": "1.0.0",
+  "name": "Pico (Week L)",
+  "assetPath": "characters/pico-week-l",
+  "healthIcon": {
+    "id": "pico",
+    "flipX": false
+  },
+  "death": {
+    "cameraOffsets": [10, -40],
+    "cameraZoom": 1.0
+  },
+  "flipX": true,
+  "renderType": "multisparrow",
+  "offsets": [19, 1],
+  "cameraOffsets": [-19, 32],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "idle"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "right"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "down"
+    },
+    {
+      "name": "singUP",
+      "prefix": "up"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "left"
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "miss left"
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "miss down"
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "miss up"
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "miss right"
+    },
+    {
+      "assetPath": "characters/pico-dies-week-l",
+      "name": "firstDeath",
+      "prefix": "dies"
+    },
+    {
+      "assetPath": "characters/pico-dies-week-l",
+      "name": "deathLoop",
+      "prefix": "dies",
+      "looped": true
+    },
+    {
+      "assetPath": "characters/pico-dies-week-l",
+      "name": "deathConfirm",
+      "prefix": "dies"
+    },
+    {
+      "name": "hey",
+      "prefix": "hey"
+    }
+  ]
+}

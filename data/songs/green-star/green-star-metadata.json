@@ -11,9 +11,9 @@
    "hard"
   ],
   "characters": {
-   "player": "bf",
-   "girlfriend": "gf",
-   "opponent": "bf-pixel",
+   "player": "bf-week-l",
+   "girlfriend": "gf-week-l",
+   "opponent": "luigi",
    "instrumental": "",
    "opponentVocals": [
     "luigi"
