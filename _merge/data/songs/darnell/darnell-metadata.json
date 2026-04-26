@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/playData/songVariations/-",
+    "value": "luigi"
+  }
+]
