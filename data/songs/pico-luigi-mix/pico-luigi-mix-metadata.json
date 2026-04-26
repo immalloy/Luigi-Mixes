@@ -1,0 +1,56 @@
+{
+ "version": "2.2.4",
+ "songName": "Pico (Luigi Mix)",
+ "artist": "Anilmky (Ft. Jake The Artist)",
+ "charter": "Funnyfunker11",
+ "divisions": 96,
+ "looped": false,
+ "offsets": {
+  "instrumental": 0,
+  "altInstrumentals": {  },
+  "vocals": {  },
+  "altVocals": {  }
+ },
+ "playData": {
+  "songVariations": [],
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf",
+   "girlfriend": "gf",
+   "opponent": "pico",
+   "instrumental": "",
+   "altInstrumentals": ["bf", "pico"],
+   "opponentVocals": [
+    "pico"
+   ],
+   "playerVocals": [
+    "luigi"
+   ]
+  },
+  "stage": "phillyTrainErect",
+  "noteStyle": "funkin",
+  "ratings": {
+   "easy": 3,
+   "normal": 4,
+   "hard": 6
+  },
+  "previewStart": 0,
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.0",
+ "timeFormat": "ms",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 150,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

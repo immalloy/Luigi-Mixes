@@ -1,0 +1,43 @@
+{
+ "version": "2.2.4",
+ "songName": "Green Star",
+ "artist": "Kazoomah",
+ "charter": "Funnyfunker11",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf",
+   "girlfriend": "gf",
+   "opponent": "bf-pixel",
+   "instrumental": "",
+   "opponentVocals": [
+    "luigi"
+   ],
+   "playerVocals": [
+    "bf"
+   ]
+  },
+  "stage": "mainStageErect",
+  "noteStyle": "funkin",
+  "ratings": {
+   "easy": 2,
+   "normal": 3,
+   "hard": 4
+  },
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.4",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 116,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

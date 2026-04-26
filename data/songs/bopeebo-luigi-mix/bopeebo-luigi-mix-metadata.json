@@ -1,0 +1,63 @@
+{
+ "version": "2.2.4",
+ "songName": "Bopeebo (Luigi Mix)",
+ "artist": "Digiars",
+ "charter": "Funnyfunker11",
+ "looped": false,
+ "offsets": {
+  "instrumental": 0,
+  "altInstrumentals": {  },
+  "vocals": {  },
+  "altVocals": {  }
+ },
+ "playData": {
+  "songVariations": [],
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf",
+   "girlfriend": "gf",
+   "opponent": "dad",
+   "instrumental": "",
+   "altInstrumentals": ["pico", "bf"],
+   "opponentVocals": [
+    "dad"
+   ],
+   "playerVocals": [
+    "luigi"
+   ]
+  },
+  "stage": "mainStageErect",
+  "noteStyle": "funkin",
+  "ratings": {
+   "easy": 1,
+   "normal": 1,
+   "hard": 2
+  },
+  "previewStart": 0,
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.0",
+ "timeFormat": "ms",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 100,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 33017.5001,
+   "b": 55.0292,
+   "bpm": 100,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

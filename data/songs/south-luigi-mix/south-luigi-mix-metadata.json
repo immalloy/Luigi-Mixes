@@ -1,0 +1,56 @@
+{
+ "version": "2.2.4",
+ "songName": "South (Luigi Mix)",
+ "artist": "RBZ_FZO",
+ "charter": "Funnyfunker11",
+ "divisions": 96,
+ "looped": false,
+ "offsets": {
+  "instrumental": 0,
+  "altInstrumentals": {  },
+  "vocals": {  },
+  "altVocals": {  }
+ },
+ "playData": {
+  "songVariations": [],
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf-dark",
+   "girlfriend": "gf-dark",
+   "opponent": "spooky-dark",
+   "instrumental": "",
+   "altInstrumentals": ["pico", "bf"],
+   "opponentVocals": [
+    "spooky"
+   ],
+   "playerVocals": [
+    "luigi"
+   ]
+  },
+  "stage": "spookyMansionErect",
+  "noteStyle": "funkin",
+  "ratings": {
+   "easy": 2,
+   "normal": 3,
+   "hard": 5
+  },
+  "previewStart": 0,
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.0",
+ "timeFormat": "ms",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 165,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

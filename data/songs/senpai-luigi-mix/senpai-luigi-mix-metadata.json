@@ -1,0 +1,42 @@
+{
+ "version": "2.2.4",
+ "songName": "Senpai (Luigi Mix)",
+ "artist": "Kazoomah",
+ "charter": "Funnyfunker11",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf-pixel",
+   "girlfriend": "gf-pixel",
+   "opponent": "senpai",
+   "instrumental": "",
+   "altInstrumentals": ["pico", "bf"],
+   "opponentVocals": [
+    "senpai"
+   ],
+   "playerVocals": [
+    "luigi"
+   ]
+  },
+  "stage": "schoolErect",
+  "noteStyle": "pixel",
+  "ratings": {
+   "hard": 4
+  },
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.4",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 144,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "version": "2.2.4",
+ "songName": "Dadbattle (Luigi Mix)",
+ "artist": "Kazoomah",
+ "charter": "Funnyfunker11",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf",
+   "girlfriend": "gf",
+   "opponent": "dad",
+   "instrumental": "",
+   "altInstrumentals": ["bf", "pico"],
+   "opponentVocals": [
+    "dad"
+   ],
+   "playerVocals": [
+    "luigi"
+   ]
+  },
+  "stage": "mainStageErect",
+  "noteStyle": "funkin",
+  "ratings": {
+   "hard": 5
+  },
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.4",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 180,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

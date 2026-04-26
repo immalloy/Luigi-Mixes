@@ -1,0 +1,54 @@
+{
+ "version": "2.2.4",
+ "songName": "High (Luigi Mix)",
+ "artist": "PastelStarlight",
+ "charter": "Funnyfunker11",
+ "looped": false,
+ "offsets": {
+  "instrumental": 0,
+  "altInstrumentals": {  },
+  "vocals": {  },
+  "altVocals": {  }
+ },
+ "playData": {
+  "songVariations": [],
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf-car",
+   "girlfriend": "gf-car",
+   "opponent": "mom-car",
+   "instrumental": "",
+   "opponentVocals": [
+    "mom"
+   ],
+   "playerVocals": [
+    "luigi"
+   ]
+  },
+  "stage": "limoRideErect",
+  "noteStyle": "funkin",
+  "ratings": {
+   "easy": 2,
+   "normal": 4,
+   "hard": 5
+  },
+  "previewStart": 0,
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.0",
+ "timeFormat": "ms",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 125,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}
