@@ -22,11 +22,11 @@
 		"id": "luigi",
 		"flipX": false
 	},
-	"assetPath": "characters/Luigi_Basic",
+	"assetPath": "characters/Luigi_Player",
 	"version": "1.0.0",
 	"danceEvery": 1,
 	"scale": 1,
-	"name": "Luigi",
+	"name": "Luigi (Player)",
 	"flipX": true,
 	"cameraOffsets": [
 		-18,
@@ -66,7 +66,6 @@
 			"name": "singLEFT",
 			"looped": false,
 			"flipX": false,
-			"assetPath": "characters/Luigi_Basic",
 			"animType": "framelabel"
 		},
 		{
@@ -80,7 +79,6 @@
 			"name": "singDOWN",
 			"looped": false,
 			"flipX": false,
-			"assetPath": "characters/Luigi_Basic",
 			"animType": "framelabel"
 		},
 		{
@@ -94,7 +92,6 @@
 			"name": "singUP",
 			"looped": false,
 			"flipX": false,
-			"assetPath": "characters/Luigi_Basic",
 			"animType": "framelabel"
 		},
 		{
@@ -108,7 +105,6 @@
 			"name": "singRIGHT",
 			"looped": false,
 			"flipX": false,
-			"assetPath": "characters/Luigi_Basic",
 			"animType": "framelabel"
 		},
 		{
@@ -122,7 +118,8 @@
 			"animType": "framelabel",
 			"flipX": false,
 			"flipY": false,
-			"frameRate": 24
+			"frameRate": 24,
+			"assetPath": "characters/LuigiHum"
 		},
 		{
 			"offsets": [
@@ -135,7 +132,8 @@
 			"animType": "framelabel",
 			"flipX": false,
 			"flipY": false,
-			"frameRate": 24
+			"frameRate": 24,
+			"assetPath": "characters/LuigiHum"
 		},
 		{
 			"offsets": [
@@ -148,7 +146,8 @@
 			"animType": "framelabel",
 			"flipX": false,
 			"flipY": false,
-			"frameRate": 24
+			"frameRate": 24,
+			"assetPath": "characters/LuigiHum"
 		},
 		{
 			"offsets": [
@@ -161,7 +160,60 @@
 			"animType": "framelabel",
 			"flipX": false,
 			"flipY": false,
-			"frameRate": 24
+			"frameRate": 24,
+			"assetPath": "characters/LuigiHum"
+		},
+		{
+			"offsets": [
+				80,
+				-145
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "left miss",
+			"name": "singLEFTmiss",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				30,
+				-200
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "down miss",
+			"name": "singDOWNmiss",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-20,
+				-80
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "up miss",
+			"name": "singUPmiss",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				10,
+				-100
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "right miss",
+			"name": "singRIGHTmiss",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
 			"offsets": [
