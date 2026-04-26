@@ -17,8 +17,8 @@
    "normal",
    "hard"
   ],
-  "characters": {
-   "player": "bf-car",
+   "characters": {
+    "player": "luigi",
    "girlfriend": "gf-car",
    "opponent": "mom-car",
    "instrumental": "",

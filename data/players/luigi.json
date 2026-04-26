@@ -2,13 +2,7 @@
   "version": "1.0.0",
   "name": "Luigi",
   "ownedChars": [
-    "luigi",
-    "bf",
-    "bf-car",
-    "bf-pixel",
-    "bf-christmas",
-    "bf-holding-gf",
-    "bf-dark"
+    "luigi"
   ],
   "showUnownedChars": true,
   "unlocked": true,
