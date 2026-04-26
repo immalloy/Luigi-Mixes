@@ -4,7 +4,7 @@ checklist to keep track of what still needs to be added, fixed, or finished.
 
 ## Still To Do
 
-- [ ] Add the character files
+- [ ] Configure character
 - [ ] Add the song audio
 - [ ] Add the chart files
 - [ ] Set up the needed JSON files
@@ -17,6 +17,7 @@ checklist to keep track of what still needs to be added, fixed, or finished.
 ## Done
 
 - [x] Created the folder structure
+- [X] Add the character files
 
 ---
 
