@@ -2,7 +2,8 @@
   "version": "1.0.0",
   "name": "Luigi",
   "ownedChars": [
-    "luigi"
+    "luigi",
+    "luigi-player"
   ],
   "showUnownedChars": false,
   "unlocked": true,
