@@ -13,14 +13,14 @@
 		]
 	},
 	"healthIcon": {
+		"isPixel": false,
 		"offsets": [
 			0,
 			0
 		],
-		"isPixel": false,
 		"scale": 1,
-		"flipX": false,
-		"id": "luigi"
+		"id": "luigi",
+		"flipX": false
 	},
 	"assetPath": "characters/Luigi_Basic",
 	"version": "1.0.0",
@@ -35,159 +35,159 @@
 	"isPixel": false,
 	"singTime": 8,
 	"atlasSettings": {
-		"applyStageMatrix": false,
 		"swfMode": true,
+		"applyStageMatrix": false,
 		"useRenderTexture": false,
-		"cacheOnLoad": false,
-		"filterQuality": 1
+		"filterQuality": 1,
+		"cacheOnLoad": false
 	},
 	"animations": [
 		{
-			"flipY": false,
 			"offsets": [
-				-30,
-				-185
+				-22,
+				-65
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "LUIGI Idle Dance",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "idle",
 			"looped": false,
-			"name": "idle"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
 			"offsets": [
-				60,
-				-185
+				63,
+				-73
 			],
 			"prefix": "left",
+			"name": "singLEFT",
+			"looped": false,
 			"animType": "framelabel",
 			"flipX": false,
-			"looped": false,
-			"name": "singLEFT",
 			"flipY": false,
-			"frameRate": 24,
-			"assetPath": "characters/Luigi_Basic"
+			"assetPath": "characters/Luigi_Basic",
+			"frameRate": 24
 		},
 		{
 			"offsets": [
-				20,
-				-220
+				26,
+				-118
 			],
 			"prefix": "down",
+			"name": "singDOWN",
+			"looped": false,
 			"animType": "framelabel",
 			"flipX": false,
-			"looped": false,
-			"name": "singDOWN",
 			"flipY": false,
-			"frameRate": 24,
-			"assetPath": "characters/Luigi_Basic"
+			"assetPath": "characters/Luigi_Basic",
+			"frameRate": 24
 		},
 		{
 			"offsets": [
-				-30,
-				-155
+				-12,
+				-36
 			],
 			"prefix": "up",
+			"name": "singUP",
+			"looped": false,
 			"animType": "framelabel",
 			"flipX": false,
-			"looped": false,
-			"name": "singUP",
 			"flipY": false,
-			"frameRate": 24,
-			"assetPath": "characters/Luigi_Basic"
+			"assetPath": "characters/Luigi_Basic",
+			"frameRate": 24
 		},
 		{
 			"offsets": [
-				20,
-				-185
+				28,
+				-71
 			],
 			"prefix": "right",
+			"name": "singRIGHT",
+			"looped": false,
 			"animType": "framelabel",
 			"flipX": false,
-			"looped": false,
-			"name": "singRIGHT",
 			"flipY": false,
-			"frameRate": 24,
-			"assetPath": "characters/Luigi_Basic"
+			"assetPath": "characters/Luigi_Basic",
+			"frameRate": 24
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				60,
-				-190
+				63,
+				-72
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "left",
-			"flipX": false,
-			"animType": "framelabel",
+			"looped": false,
 			"name": "singLEFT-alt",
-			"looped": false
+			"animType": "framelabel",
+			"flipX": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				20,
-				-220
+				26,
+				-108
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "down",
-			"flipX": false,
-			"animType": "framelabel",
+			"looped": false,
 			"name": "singDOWN-alt",
-			"looped": false
+			"animType": "framelabel",
+			"flipX": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				-20,
-				-140
+				-6,
+				-41
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "up",
-			"flipX": false,
-			"animType": "framelabel",
+			"looped": false,
 			"name": "singUP-alt",
-			"looped": false
+			"animType": "framelabel",
+			"flipX": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				30,
-				-185
+				-73
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "right",
-			"flipX": false,
-			"animType": "framelabel",
+			"looped": false,
 			"name": "singRIGHT-alt",
-			"looped": false
+			"animType": "framelabel",
+			"flipX": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				-10,
-				-150
+				4,
+				-34
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "hey",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "hey",
 			"looped": false,
-			"name": "hey"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				50,
-				-150
+				45,
+				70
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "cheer",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "cheer",
 			"looped": false,
-			"name": "cheer"
+			"flipX": false,
+			"animType": "framelabel"
 		}
 	]
 }
