@@ -1,75 +1,219 @@
 {
-  "version": "1.0.0",
-  "name": "Pico (Week L)",
-  "assetPath": "characters/pico-week-l",
-  "healthIcon": {
-    "id": "pico",
-    "flipX": false
-  },
-  "death": {
-    "cameraOffsets": [10, -40],
-    "cameraZoom": 1.0
-  },
-  "flipX": true,
-  "renderType": "multisparrow",
-  "offsets": [19, 1],
-  "cameraOffsets": [-19, 32],
-  "animations": [
-    {
-      "name": "idle",
-      "prefix": "idle"
-    },
-    {
-      "name": "singRIGHT",
-      "prefix": "right"
-    },
-    {
-      "name": "singDOWN",
-      "prefix": "down"
-    },
-    {
-      "name": "singUP",
-      "prefix": "up"
-    },
-    {
-      "name": "singLEFT",
-      "prefix": "left"
-    },
-    {
-      "name": "singLEFTmiss",
-      "prefix": "miss left"
-    },
-    {
-      "name": "singDOWNmiss",
-      "prefix": "miss down"
-    },
-    {
-      "name": "singUPmiss",
-      "prefix": "miss up"
-    },
-    {
-      "name": "singRIGHTmiss",
-      "prefix": "miss right"
-    },
-    {
-      "assetPath": "characters/pico-dies-week-l",
-      "name": "firstDeath",
-      "prefix": "dies"
-    },
-    {
-      "assetPath": "characters/pico-dies-week-l",
-      "name": "deathLoop",
-      "prefix": "dies",
-      "looped": true
-    },
-    {
-      "assetPath": "characters/pico-dies-week-l",
-      "name": "deathConfirm",
-      "prefix": "dies"
-    },
-    {
-      "name": "hey",
-      "prefix": "hey"
-    }
-  ]
+	"renderType": "multisparrow",
+	"offsets": [
+		19,
+		1
+	],
+	"applyStageMatrix": false,
+	"startingAnimation": "idle",
+	"death": {
+		"cameraZoom": 1,
+		"cameraOffsets": [
+			10,
+			-40
+		]
+	},
+	"assetPath": "characters/pico-week-l",
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			0,
+			0
+		],
+		"scale": 1,
+		"id": "pico",
+		"flipX": false
+	},
+	"version": "1.0.0",
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Pico (Week L)",
+	"flipX": true,
+	"cameraOffsets": [
+		-19,
+		32
+	],
+	"isPixel": false,
+	"singTime": 8,
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false,
+		"swfMode": true
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "idle",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				52,
+				1
+			],
+			"frameRate": 24,
+			"prefix": "right",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-41,
+				-76
+			],
+			"frameRate": 24,
+			"prefix": "down",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-37,
+				27
+			],
+			"frameRate": 24,
+			"prefix": "up",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-81,
+				-9
+			],
+			"frameRate": 24,
+			"prefix": "left",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-83,
+				28
+			],
+			"frameRate": 24,
+			"prefix": "miss left",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-30,
+				-30
+			],
+			"frameRate": 24,
+			"prefix": "miss down",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-14,
+				64
+			],
+			"frameRate": 24,
+			"prefix": "miss up",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				61,
+				47
+			],
+			"frameRate": 24,
+			"prefix": "miss right",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss"
+		},
+		{
+			"offsets": [
+				372,
+				67
+			],
+			"prefix": "dies",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "firstDeath",
+			"flipY": false,
+			"assetPath": "characters/pico-dies-week-l",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				386,
+				64
+			],
+			"prefix": "dies",
+			"animType": "framelabel",
+			"flipX": false,
+			"name": "deathLoop",
+			"looped": true,
+			"flipY": false,
+			"assetPath": "characters/pico-dies-week-l",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				377,
+				68
+			],
+			"prefix": "dies",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "deathConfirm",
+			"flipY": false,
+			"assetPath": "characters/pico-dies-week-l",
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				23,
+				3
+			],
+			"frameRate": 24,
+			"prefix": "hey",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "hey"
+		}
+	]
 }

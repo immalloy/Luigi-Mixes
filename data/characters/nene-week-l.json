@@ -1,60 +1,270 @@
 {
-  "version": "1.0.0",
-  "name": "Nene (Week L)",
-  "assetPath": "characters/nene-week-l",
-  "startingAnimation": "danceRight",
-  "renderType": "sparrow",
-  "offsets": [4, -89],
-  "cameraOffsets": [-4, 34],
-  "animations": [
-    {
-      "name": "danceLeft",
-      "prefix": "dancing beat",
-      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
-    },
-    {
-      "name": "danceRight",
-      "prefix": "dancing beat",
-      "frameIndices": [
-        15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-      ]
-    },
-    {
-      "name": "combo50",
-      "prefix": "cheer"
-    },
-    {
-      "name": "drop70",
-      "prefix": "laugh",
-      "frameIndices": [
-        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 7, 8, 9, 10, 11, 7, 8, 9, 10, 11,
-        7, 8, 9, 10, 11, 7, 8, 9, 10, 11, 7, 8, 9, 10, 11
-      ]
-    },
-    {
-      "name": "laughCutscene",
-      "prefix": "laugh",
-      "frameIndices": [
-        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 7, 8, 9, 10, 11, 7, 8, 9, 10, 11,
-        7, 8, 9, 10, 11, 7, 8, 9, 10, 11, 7, 8, 9, 10, 11
-      ]
-    },
-    {
-      "name": "raiseKnife",
-      "prefix": "knife raise"
-    },
-    {
-      "name": "idleKnife",
-      "prefix": "knife hold"
-    },
-    {
-      "name": "lowerKnife",
-      "prefix": "knife lower"
-    },
-    {
-      "assetPath": "characters/nene-kill-week-l",
-      "name": "knifeThrow",
-      "prefix": "knife throw"
-    }
-  ]
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		4,
+		-89
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 1,
+	"name": "Nene (Week L)",
+	"cameraOffsets": [
+		-4,
+		34
+	],
+	"flipX": false,
+	"startingAnimation": "danceRight",
+	"isPixel": false,
+	"singTime": 8,
+	"assetPath": "characters/nene-week-l",
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"id": "nene-week-l",
+		"flipX": false,
+		"isPixel": false,
+		"scale": 1
+	},
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false,
+		"swfMode": true
+	},
+	"animations": [
+		{
+			"offsets": [
+				-3,
+				1
+			],
+			"prefix": "dancing beat",
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "danceLeft",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"prefix": "dancing beat",
+			"frameIndices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			],
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "danceRight",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-114,
+				87
+			],
+			"frameRate": 24,
+			"prefix": "cheer",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "combo50"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"prefix": "laugh",
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				7,
+				8,
+				9,
+				10,
+				11,
+				7,
+				8,
+				9,
+				10,
+				11,
+				7,
+				8,
+				9,
+				10,
+				11,
+				7,
+				8,
+				9,
+				10,
+				11,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "drop70",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				9,
+				-7
+			],
+			"prefix": "laugh",
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				7,
+				8,
+				9,
+				10,
+				11,
+				7,
+				8,
+				9,
+				10,
+				11,
+				7,
+				8,
+				9,
+				10,
+				11,
+				7,
+				8,
+				9,
+				10,
+				11,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "laughCutscene",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				2,
+				52
+			],
+			"frameRate": 24,
+			"prefix": "knife raise",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "raiseKnife"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-96,
+				54
+			],
+			"frameRate": 24,
+			"prefix": "knife hold",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "idleKnife"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-31,
+				50
+			],
+			"frameRate": 24,
+			"prefix": "knife lower",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "lowerKnife"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"prefix": "knife throw",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "knifeThrow",
+			"flipY": false,
+			"assetPath": "characters/nene-kill-week-l",
+			"frameRate": 24
+		}
+	]
 }
