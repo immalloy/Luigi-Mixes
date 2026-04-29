@@ -45,8 +45,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				25,
-				280
+				18,
+				35
 			],
 			"frameRate": 24,
 			"prefix": "Idle",
@@ -58,8 +58,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				27,
-				283
+				25,
+				36
 			],
 			"frameRate": 24,
 			"prefix": "Left",
@@ -71,8 +71,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				29,
-				275
+				34,
+				27
 			],
 			"frameRate": 24,
 			"prefix": "Down",
@@ -84,8 +84,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				25,
-				275
+				18,
+				38
 			],
 			"frameRate": 24,
 			"prefix": "Up",
@@ -97,8 +97,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				24,
-				280
+				13,
+				37
 			],
 			"frameRate": 24,
 			"prefix": "Right",
@@ -110,8 +110,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				26,
-				282
+				17,
+				35
 			],
 			"frameRate": 24,
 			"prefix": "Left",
@@ -123,8 +123,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				38,
-				270
+				21,
+				35
 			],
 			"frameRate": 24,
 			"prefix": "Down",
@@ -136,8 +136,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				19,
-				246
+				15,
+				33
 			],
 			"frameRate": 24,
 			"prefix": "Up",
@@ -149,8 +149,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				19,
-				281
+				17,
+				35
 			],
 			"frameRate": 24,
 			"prefix": "Right",
@@ -162,8 +162,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				25,
-				278
+				18,
+				30
 			],
 			"frameRate": 24,
 			"prefix": "LeftMiss",
@@ -175,8 +175,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				38,
-				277
+				26,
+				39
 			],
 			"frameRate": 24,
 			"prefix": "DownMiss",
@@ -188,8 +188,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				20,
-				283
+				12,
+				37
 			],
 			"frameRate": 24,
 			"prefix": "UpMiss",
@@ -201,8 +201,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				20,
-				270
+				15,
+				38
 			],
 			"frameRate": 24,
 			"prefix": "RightMiss",
@@ -214,8 +214,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				24,
-				280
+				15,
+				33
 			],
 			"frameRate": 24,
 			"prefix": "Hey",
@@ -227,8 +227,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				44,
-				265
+				13,
+				71
 			],
 			"frameRate": 24,
 			"prefix": "FuckingJump",
