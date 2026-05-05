@@ -1,193 +1,197 @@
 {
-	"renderType": "multisparrow",
-	"offsets": [
-		17,
-		14
-	],
-	"applyStageMatrix": false,
-	"startingAnimation": "idle",
-	"death": {
-		"cameraOffsets": [
-			-73,
-			42
-		]
-	},
-	"healthIcon": {
-		"isPixel": false,
-		"offsets": [
-			0,
-			0
-		],
-		"scale": 1,
-		"id": "luigi",
-		"flipX": false
-	},
-	"assetPath": "characters/Luigi_Basic",
-	"version": "1.0.0",
-	"danceEvery": 1,
-	"scale": 1,
-	"name": "Luigi",
-	"flipX": true,
-	"cameraOffsets": [
-		-18,
-		36
-	],
-	"isPixel": false,
-	"singTime": 8,
-	"atlasSettings": {
-		"swfMode": true,
-		"applyStageMatrix": false,
-		"useRenderTexture": false,
-		"filterQuality": 1,
-		"cacheOnLoad": false
-	},
-	"animations": [
-		{
-			"offsets": [
-				-22,
-				-65
-			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "LUIGI Idle Dance",
-			"name": "idle",
-			"looped": false,
-			"flipX": false,
-			"animType": "framelabel"
-		},
-		{
-			"offsets": [
-				63,
-				-73
-			],
-			"prefix": "left",
-			"name": "singLEFT",
-			"looped": false,
-			"animType": "framelabel",
-			"flipX": false,
-			"flipY": false,
-			"assetPath": "characters/Luigi_Basic",
-			"frameRate": 24
-		},
-		{
-			"offsets": [
-				26,
-				-118
-			],
-			"prefix": "down",
-			"name": "singDOWN",
-			"looped": false,
-			"animType": "framelabel",
-			"flipX": false,
-			"flipY": false,
-			"assetPath": "characters/Luigi_Basic",
-			"frameRate": 24
-		},
-		{
-			"offsets": [
-				-12,
-				-36
-			],
-			"prefix": "up",
-			"name": "singUP",
-			"looped": false,
-			"animType": "framelabel",
-			"flipX": false,
-			"flipY": false,
-			"assetPath": "characters/Luigi_Basic",
-			"frameRate": 24
-		},
-		{
-			"offsets": [
-				28,
-				-71
-			],
-			"prefix": "right",
-			"name": "singRIGHT",
-			"looped": false,
-			"animType": "framelabel",
-			"flipX": false,
-			"flipY": false,
-			"assetPath": "characters/Luigi_Basic",
-			"frameRate": 24
-		},
-		{
-			"offsets": [
-				63,
-				-72
-			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "left",
-			"looped": false,
-			"name": "singLEFT-alt",
-			"animType": "framelabel",
-			"flipX": false
-		},
-		{
-			"offsets": [
-				26,
-				-108
-			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "down",
-			"looped": false,
-			"name": "singDOWN-alt",
-			"animType": "framelabel",
-			"flipX": false
-		},
-		{
-			"offsets": [
-				-6,
-				-41
-			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "up",
-			"looped": false,
-			"name": "singUP-alt",
-			"animType": "framelabel",
-			"flipX": false
-		},
-		{
-			"offsets": [
-				30,
-				-73
-			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "right",
-			"looped": false,
-			"name": "singRIGHT-alt",
-			"animType": "framelabel",
-			"flipX": false
-		},
-		{
-			"offsets": [
-				4,
-				-34
-			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "hey",
-			"name": "hey",
-			"looped": false,
-			"flipX": false,
-			"animType": "framelabel"
-		},
-		{
-			"offsets": [
-				45,
-				70
-			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "cheer",
-			"name": "cheer",
-			"looped": false,
-			"flipX": false,
-			"animType": "framelabel"
-		}
-	]
+    "renderType":  "multisparrow",
+    "offsets":  [
+                    17,
+                    14
+                ],
+    "applyStageMatrix":  false,
+    "startingAnimation":  "idle",
+    "death":  {
+                  "cameraOffsets":  [
+                                        -73,
+                                        42
+                                    ]
+              },
+    "healthIcon":  {
+                       "isPixel":  false,
+                       "offsets":  [
+                                       0,
+                                       0
+                                   ],
+                       "scale":  1,
+                       "id":  "luigi",
+                       "flipX":  false
+                   },
+    "assetPath":  "characters/luigi/Luigi_Basic",
+    "version":  "1.0.0",
+    "danceEvery":  1,
+    "scale":  0.94,
+    "name":  "Luigi",
+    "flipX":  true,
+    "cameraOffsets":  [
+                          -18,
+                          36
+                      ],
+    "isPixel":  false,
+    "singTime":  8,
+    "atlasSettings":  {
+                          "swfMode":  true,
+                          "applyStageMatrix":  false,
+                          "useRenderTexture":  false,
+                          "filterQuality":  1,
+                          "cacheOnLoad":  false
+                      },
+    "animations":  [
+                       {
+                           "offsets":  [
+                                           -22,
+                                           -65
+                                       ],
+                           "flipY":  false,
+                           "frameRate":  24,
+                           "prefix":  "LUIGI Idle Dance",
+                           "name":  "idle",
+                           "looped":  false,
+                           "flipX":  false,
+                           "animType":  "framelabel"
+                       },
+                       {
+                           "offsets":  [
+                                           63,
+                                           -73
+                                       ],
+                           "prefix":  "left",
+                           "name":  "singLEFT",
+                           "looped":  false,
+                           "animType":  "framelabel",
+                           "flipX":  false,
+                           "flipY":  false,
+                           "assetPath":  "characters/luigi/Luigi_Basic",
+                           "frameRate":  24
+                       },
+                       {
+                           "offsets":  [
+                                           26,
+                                           -118
+                                       ],
+                           "prefix":  "down",
+                           "name":  "singDOWN",
+                           "looped":  false,
+                           "animType":  "framelabel",
+                           "flipX":  false,
+                           "flipY":  false,
+                           "assetPath":  "characters/luigi/Luigi_Basic",
+                           "frameRate":  24
+                       },
+                       {
+                           "offsets":  [
+                                           -12,
+                                           -36
+                                       ],
+                           "prefix":  "up",
+                           "name":  "singUP",
+                           "looped":  false,
+                           "animType":  "framelabel",
+                           "flipX":  false,
+                           "flipY":  false,
+                           "assetPath":  "characters/luigi/Luigi_Basic",
+                           "frameRate":  24
+                       },
+                       {
+                           "offsets":  [
+                                           28,
+                                           -71
+                                       ],
+                           "prefix":  "right",
+                           "name":  "singRIGHT",
+                           "looped":  false,
+                           "animType":  "framelabel",
+                           "flipX":  false,
+                           "flipY":  false,
+                           "assetPath":  "characters/luigi/Luigi_Basic",
+                           "frameRate":  24
+                       },
+                       {
+                           "offsets":  [
+                                           63,
+                                           -72
+                                       ],
+                           "flipY":  false,
+                           "frameRate":  24,
+                           "prefix":  "left",
+                           "looped":  false,
+                           "name":  "singLEFT-alt",
+                           "animType":  "framelabel",
+                           "flipX":  false,
+                           "assetPath":  "characters/luigi/LuigiHum"
+                       },
+                       {
+                           "offsets":  [
+                                           26,
+                                           -108
+                                       ],
+                           "flipY":  false,
+                           "frameRate":  24,
+                           "prefix":  "down",
+                           "looped":  false,
+                           "name":  "singDOWN-alt",
+                           "animType":  "framelabel",
+                           "flipX":  false,
+                           "assetPath":  "characters/luigi/LuigiHum"
+                       },
+                       {
+                           "offsets":  [
+                                           -6,
+                                           -41
+                                       ],
+                           "flipY":  false,
+                           "frameRate":  24,
+                           "prefix":  "up",
+                           "looped":  false,
+                           "name":  "singUP-alt",
+                           "animType":  "framelabel",
+                           "flipX":  false,
+                           "assetPath":  "characters/luigi/LuigiHum"
+                       },
+                       {
+                           "offsets":  [
+                                           30,
+                                           -73
+                                       ],
+                           "flipY":  false,
+                           "frameRate":  24,
+                           "prefix":  "right",
+                           "looped":  false,
+                           "name":  "singRIGHT-alt",
+                           "animType":  "framelabel",
+                           "flipX":  false,
+                           "assetPath":  "characters/luigi/LuigiHum"
+                       },
+                       {
+                           "offsets":  [
+                                           4,
+                                           -34
+                                       ],
+                           "flipY":  false,
+                           "frameRate":  24,
+                           "prefix":  "hey",
+                           "name":  "hey",
+                           "looped":  false,
+                           "flipX":  false,
+                           "animType":  "framelabel"
+                       },
+                       {
+                           "offsets":  [
+                                           45,
+                                           70
+                                       ],
+                           "flipY":  false,
+                           "frameRate":  24,
+                           "prefix":  "cheer",
+                           "name":  "cheer",
+                           "looped":  false,
+                           "flipX":  false,
+                           "animType":  "framelabel"
+                       }
+                   ]
 }

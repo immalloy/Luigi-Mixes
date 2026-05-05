@@ -1,0 +1,137 @@
+{
+    "version":  "1.0.0",
+    "name":  "Luigi (Pixel)",
+    "renderType":  "multisparrow",
+    "assetPath":  "characters/luigi/luigiPixel",
+    "flipX":  true,
+    "offsets":  [
+                    15,
+                    0
+                ],
+    "cameraOffsets":  [
+                          15,
+                          0
+                      ],
+    "death":  {
+                  "cameraOffsets":  [
+                                        -73,
+                                        42
+                                    ]
+              },
+    "healthIcon":  {
+                       "offsets":  [
+                                       0,
+                                       0
+                                   ],
+                       "flipX":  false,
+                       "scale":  1,
+                       "id":  "luigi",
+                       "isPixel":  true
+                   },
+    "danceEvery":  1,
+    "scale":  6,
+    "startingAnimation":  "idle",
+    "isPixel":  true,
+    "singTime":  8,
+    "animations":  [
+                       {
+                           "prefix":  "idle",
+                           "name":  "idle",
+                           "frameRate":  24,
+                           "offsets":  [
+                                           0,
+                                           0
+                                       ]
+                       },
+                       {
+                           "prefix":  "left",
+                           "name":  "singLEFT",
+                           "frameRate":  24,
+                           "offsets":  [
+                                           0,
+                                           0
+                                       ]
+                       },
+                       {
+                           "prefix":  "down",
+                           "name":  "singDOWN",
+                           "frameRate":  24,
+                           "offsets":  [
+                                           0,
+                                           0
+                                       ]
+                       },
+                       {
+                           "prefix":  "up",
+                           "name":  "singUP",
+                           "frameRate":  24,
+                           "offsets":  [
+                                           -1,
+                                           0
+                                       ]
+                       },
+                       {
+                           "prefix":  "right",
+                           "name":  "singRIGHT",
+                           "frameRate":  24,
+                           "offsets":  [
+                                           0,
+                                           0
+                                       ]
+                       },
+                       {
+                           "prefix":  "leftMISS",
+                           "name":  "singLEFTmiss",
+                           "frameRate":  24,
+                           "offsets":  [
+                                           0,
+                                           0
+                                       ]
+                       },
+                       {
+                           "prefix":  "downMISS",
+                           "name":  "singDOWNmiss",
+                           "frameRate":  24,
+                           "offsets":  [
+                                           0,
+                                           0
+                                       ]
+                       },
+                       {
+                           "prefix":  "upMISS",
+                           "name":  "singUPmiss",
+                           "frameRate":  24,
+                           "offsets":  [
+                                           -1,
+                                           0
+                                       ]
+                       },
+                       {
+                           "prefix":  "rightMISS",
+                           "name":  "singRIGHTmiss",
+                           "frameRate":  24,
+                           "offsets":  [
+                                           0,
+                                           0
+                                       ]
+                       },
+                       {
+                           "prefix":  "hey",
+                           "name":  "hey",
+                           "frameRate":  24,
+                           "offsets":  [
+                                           0,
+                                           0
+                                       ]
+                       },
+                       {
+                           "prefix":  "cheer",
+                           "name":  "cheer",
+                           "frameRate":  24,
+                           "offsets":  [
+                                           0,
+                                           0
+                                       ]
+                       }
+                   ]
+}

@@ -1,6 +1,6 @@
 {
     "version":  "1.0.0",
-    "name":  "Luigi (Player)",
+    "name":  "Luigi (Dark)",
     "renderType":  "multisparrow",
     "assetPath":  "characters/luigi/Luigi_Dark",
     "flipX":  true,
