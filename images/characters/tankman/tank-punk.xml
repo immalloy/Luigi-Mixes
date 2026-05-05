@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tank-punk.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="punk0000" x="20" y="20" width="429" height="573" frameX="-5" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0001" x="20" y="20" width="429" height="573" frameX="-5" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0002" x="20" y="20" width="429" height="573" frameX="-5" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0003" x="20" y="20" width="429" height="573" frameX="-5" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0004" x="20" y="20" width="429" height="573" frameX="-5" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0005" x="20" y="20" width="429" height="573" frameX="-5" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0006" x="20" y="20" width="429" height="573" frameX="-5" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0007" x="20" y="20" width="429" height="573" frameX="-5" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0008" x="20" y="20" width="429" height="573" frameX="-5" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0009" x="469" y="20" width="429" height="573" frameX="-5" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0010" x="469" y="20" width="429" height="573" frameX="-5" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0011" x="918" y="20" width="429" height="573" frameX="-5" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0012" x="918" y="20" width="429" height="573" frameX="-5" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0013" x="1367" y="20" width="432" height="570" frameX="-3" frameY="-6" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0014" x="1819" y="20" width="432" height="570" frameX="-3" frameY="-6" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0015" x="2271" y="20" width="434" height="569" frameX="-2" frameY="-7" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0016" x="2725" y="20" width="434" height="569" frameX="-2" frameY="-7" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0017" x="2725" y="20" width="434" height="569" frameX="-2" frameY="-7" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0018" x="3179" y="20" width="434" height="569" frameX="-2" frameY="-7" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0019" x="3179" y="20" width="434" height="569" frameX="-2" frameY="-7" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0020" x="3633" y="20" width="434" height="569" frameX="-2" frameY="-7" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0021" x="20" y="613" width="434" height="569" frameX="-2" frameY="-7" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0022" x="474" y="613" width="434" height="569" frameX="-2" frameY="-7" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0023" x="928" y="613" width="433" height="569" frameX="-3" frameY="-7" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0024" x="1381" y="613" width="433" height="569" frameX="-3" frameY="-7" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0025" x="1834" y="613" width="406" height="576" frameX="0" frameY="0" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0026" x="1834" y="613" width="406" height="576" frameX="0" frameY="0" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0027" x="2260" y="613" width="408" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0028" x="2260" y="613" width="408" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0029" x="2688" y="613" width="409" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0030" x="2688" y="613" width="409" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0031" x="2688" y="613" width="409" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0032" x="2688" y="613" width="409" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0033" x="2688" y="613" width="409" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0034" x="2688" y="613" width="409" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0035" x="2688" y="613" width="409" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0036" x="2688" y="613" width="409" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0037" x="2688" y="613" width="409" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0038" x="2688" y="613" width="409" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0039" x="2688" y="613" width="409" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0040" x="2688" y="613" width="409" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+	<SubTexture name="punk0041" x="2688" y="613" width="409" height="573" frameX="0" frameY="-3" frameWidth="436" frameHeight="576"/>
+</TextureAtlas>
