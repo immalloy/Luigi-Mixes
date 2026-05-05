@@ -123,7 +123,7 @@
                            "name":  "singLEFT-alt",
                            "animType":  "framelabel",
                            "flipX":  false,
-                           "assetPath":  "characters/luigi/LuigiHum"
+                           "assetPath":  "characters/luigi/Luigi_Basic"
                        },
                        {
                            "offsets":  [
@@ -137,7 +137,7 @@
                            "name":  "singDOWN-alt",
                            "animType":  "framelabel",
                            "flipX":  false,
-                           "assetPath":  "characters/luigi/LuigiHum"
+                           "assetPath":  "characters/luigi/Luigi_Basic"
                        },
                        {
                            "offsets":  [
@@ -151,7 +151,7 @@
                            "name":  "singUP-alt",
                            "animType":  "framelabel",
                            "flipX":  false,
-                           "assetPath":  "characters/luigi/LuigiHum"
+                           "assetPath":  "characters/luigi/Luigi_Basic"
                        },
                        {
                            "offsets":  [
@@ -165,7 +165,7 @@
                            "name":  "singRIGHT-alt",
                            "animType":  "framelabel",
                            "flipX":  false,
-                           "assetPath":  "characters/luigi/LuigiHum"
+                           "assetPath":  "characters/luigi/Luigi_Basic"
                        },
                        {
                            "offsets":  [

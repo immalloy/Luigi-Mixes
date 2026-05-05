@@ -1,43 +1,35 @@
 {
- "version": "2.2.4",
- "songName": "Thorns (Luigi Mix)",
- "artist": "Autumniscoldlol",
- "charter": "Funnyfunker11",
- "offsets": { },
- "playData": {
-  "difficulties": [
-   "easy",
-   "normal",
-   "hard"
-  ],
-   "characters": {
-    "player": "luigi-player",
-   "girlfriend": "gf-pixel",
-   "opponent": "spirit",
-   "instrumental": "",
-   "altInstrumentals": ["bf", "erect"],
-   
-   "opponentVocals": [
-    "spirit"
-   ],
-   "playerVocals": [
-    "luigi"
-   ]
+  "version": "2.2.4",
+  "songName": "Thorns (Luigi Mix)",
+  "artist": "Autumniscoldlol",
+  "charter": "Funnyfunker11",
+  "offsets": {},
+  "playData": {
+    "difficulties": ["easy", "normal", "hard"],
+    "characters": {
+      "player": "luigi-pixel",
+      "girlfriend": "gf-pixel",
+      "opponent": "spirit",
+      "instrumental": "",
+      "altInstrumentals": ["bf", "erect"],
+
+      "opponentVocals": ["spirit"],
+      "playerVocals": ["luigi"]
+    },
+    "stage": "schoolEvilErect",
+    "noteStyle": "pixel",
+    "ratings": {
+      "hard": 6
+    },
+    "previewEnd": 0
   },
-  "stage": "schoolEvilErect",
-  "noteStyle": "pixel",
-  "ratings": {
-   "hard": 6
-  },
-  "previewEnd": 0
- },
- "generatedBy": "Friday Night Funkin' - v0.8.4",
- "timeChanges": [
-  {
-   "t": 0,
-   "b": 0,
-   "bpm": 190,
-   "bt": [4, 4, 4, 4]
-  }
- ]
+  "generatedBy": "Friday Night Funkin' - v0.8.4",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 190,
+      "bt": [4, 4, 4, 4]
+    }
+  ]
 }

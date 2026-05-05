@@ -119,7 +119,7 @@
                            "name":  "singLEFT-alt",
                            "looped":  false,
                            "frameRate":  24,
-                           "assetPath":  "characters/luigi/LuigiHum"
+                           "assetPath":  "characters/luigi/Luigi_Dark"
                        },
                        {
                            "animType":  "framelabel",
@@ -133,7 +133,7 @@
                            "name":  "singDOWN-alt",
                            "looped":  false,
                            "frameRate":  24,
-                           "assetPath":  "characters/luigi/LuigiHum"
+                           "assetPath":  "characters/luigi/Luigi_Dark"
                        },
                        {
                            "animType":  "framelabel",
@@ -147,7 +147,7 @@
                            "name":  "singUP-alt",
                            "looped":  false,
                            "frameRate":  24,
-                           "assetPath":  "characters/luigi/LuigiHum"
+                           "assetPath":  "characters/luigi/Luigi_Dark"
                        },
                        {
                            "animType":  "framelabel",
@@ -161,7 +161,7 @@
                            "name":  "singRIGHT-alt",
                            "looped":  false,
                            "frameRate":  24,
-                           "assetPath":  "characters/luigi/LuigiHum"
+                           "assetPath":  "characters/luigi/Luigi_Dark"
                        },
                        {
                            "looped":  false,
