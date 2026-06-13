@@ -1,0 +1,255 @@
+import funkin.ui.freeplay.BGScrollingText;
+import funkin.ui.freeplay.FreeplayState;
+import funkin.ui.freeplay.backcards.BackingCard;
+import flixel.FlxSprite;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxSpriteUtil;
+import funkin.Conductor;
+
+class LuigiCard extends BackingCard
+{
+  public var scroll1:BGScrollingText;
+  public var scroll2:BGScrollingText;
+  public var scroll3:BGScrollingText;
+  public var scroll4:BGScrollingText;
+  public var scroll5:BGScrollingText;
+  public var scroll6:BGScrollingText;
+
+  var glow:FlxSprite;
+  var glowDark:FlxSprite;
+
+  var luigiLines:Array<String> = [
+    "I'm a-Luigi, number one!",
+    "Watch out for-a Luigi!",
+    "Ha ha ha! I'm the best!",
+    "Luigi time!",
+    "Go Weegee!",
+    "Okie dokie!",
+    "Luigi, Luigi! Oh yeah! Oh yeah!",
+    "Let's-a go...",
+    "Hoo, ha, hee, heh, hoo!",
+    "Pow pow!",
+    "Bang bang!",
+    "Hello, Super Mario Brothers!",
+    "Nothing can hurt us as long as we're together.",
+    "Yay for me, Luigi!",
+    "Got it! Yeah! Luigi! Oh yeah!",
+    "Green thunder!",
+    "Luigi wins by doing absolutely nothing!",
+    "The taller brother takes the stage!",
+    "Mamma mia, that's-a me!",
+    "Don't underestimate Luigi!",
+    "Player two? Not today!",
+    "The green machine is here!",
+    "Courage runs in green!",
+    "Time for a little Luigi luck!",
+    "Step aside, it's Luigi time!",
+    "Too late, I'm already winning!",
+    "Nobody out-Luigis Luigi!",
+    "Clean moves, clean shoes!",
+    "Lean, green, and ready to go!"
+  ];
+
+  public override function new()
+  {
+    super("luigi");
+
+    scroll1 = new BGScrollingText(0, 160, pickLuigiLine(), FlxG.width, true, 43);
+    scroll2 = new BGScrollingText(0, 220, pickLuigiLine(), FlxG.width / 2, false, 60);
+    scroll3 = new BGScrollingText(0, 285, pickLuigiLine(), FlxG.width / 2, true, 43);
+    scroll4 = new BGScrollingText(0, 335, pickLuigiLine(), FlxG.width / 2, false, 60);
+    scroll5 = new BGScrollingText(0, 397, pickLuigiLine(), FlxG.width, true, 43);
+    scroll6 = new BGScrollingText(0, orangeBackShit.y + 10, pickLuigiLine(), FlxG.width / 2, false, 60);
+  }
+
+  function pickLuigiLine():String
+  {
+    return luigiLines[FlxG.random.int(0, luigiLines.length - 1)];
+  }
+
+  public override function applyExitMovers(?exitMovers:FreeplayState.ExitMoverData, ?exitMoversCharSel:FreeplayState.ExitMoverData):Void
+  {
+    super.applyExitMovers(exitMovers, exitMoversCharSel);
+    if (exitMovers == null || exitMoversCharSel == null) return;
+
+    exitMovers.set([scroll1], {
+      x: FlxG.width * 2,
+      speed: 0.4
+    });
+    exitMovers.set([scroll2], {
+      x: -scroll2.width * 2,
+      y: scroll2.y,
+      speed: 0.4,
+      wait: 0
+    });
+    exitMovers.set([scroll3], {
+      x: FlxG.width * 2,
+      speed: 0.4
+    });
+    exitMovers.set([scroll4], {
+      x: -scroll4.width * 2,
+      speed: 0.5
+    });
+    exitMovers.set([scroll5], {
+      x: FlxG.width * 2,
+      speed: 0.4
+    });
+    exitMovers.set([scroll6], {
+      x: -scroll6.width * 2,
+      speed: 0.3
+    });
+
+    exitMoversCharSel.set([scroll1, scroll2, scroll3, scroll4, scroll5, scroll6], {
+      y: -60,
+      speed: 0.8,
+      wait: 0.1
+    });
+  }
+
+  public override function enterCharSel():Void
+  {
+    FlxTween.tween(scroll1, {speed: 0}, 0.8, {ease: FlxEase.sineIn});
+    FlxTween.tween(scroll2, {speed: 0}, 0.8, {ease: FlxEase.sineIn});
+    FlxTween.tween(scroll3, {speed: 0}, 0.8, {ease: FlxEase.sineIn});
+    FlxTween.tween(scroll4, {speed: 0}, 0.8, {ease: FlxEase.sineIn});
+    FlxTween.tween(scroll5, {speed: 0}, 0.8, {ease: FlxEase.sineIn});
+    FlxTween.tween(scroll6, {speed: 0}, 0.8, {ease: FlxEase.sineIn});
+  }
+
+  public override function onCreate(event:ScriptEvent):Void
+  {
+    pinkBack.color = 0xFF40E54F;
+    orangeBackShit.color = 0xFF75F184;
+    alsoOrangeLOL.color = 0xFFB9FFC2;
+
+    FlxTween.tween(pinkBack, {x: 0}, 0.6, {ease: FlxEase.quartOut});
+    add(pinkBack);
+
+    add(orangeBackShit);
+    add(alsoOrangeLOL);
+
+    FlxSpriteUtil.alphaMaskFlxSprite(orangeBackShit, pinkBack, orangeBackShit);
+    orangeBackShit.visible = false;
+    alsoOrangeLOL.visible = false;
+
+    confirmTextGlow.blend = 0;
+    confirmTextGlow.visible = false;
+
+    confirmGlow.blend = 0;
+    confirmGlow.visible = false;
+    confirmGlow2.visible = false;
+
+    add(confirmGlow2);
+    add(confirmGlow);
+    add(confirmTextGlow);
+    add(backingTextYeah);
+
+    cardGlow.blend = 0;
+    cardGlow.visible = false;
+
+    scroll1.visible = false;
+    scroll2.visible = false;
+    scroll3.visible = false;
+    scroll4.visible = false;
+    scroll5.visible = false;
+    scroll6.visible = false;
+
+    scroll1.color = 0xFFE9FFEC;
+    scroll1.speed = 6.8;
+    add(scroll1);
+
+    scroll2.color = 0xFF145E25;
+    scroll2.speed = -3.8;
+    add(scroll2);
+
+    scroll3.color = 0xFFFFFFFF;
+    scroll3.speed = 3.5;
+    add(scroll3);
+
+    scroll4.color = 0xFF226F31;
+    scroll4.speed = -3.8;
+    add(scroll4);
+
+    scroll5.color = 0xFFE9FFEC;
+    scroll5.speed = 6.8;
+    add(scroll5);
+
+    scroll6.color = 0xFF145E25;
+    scroll6.speed = -3.8;
+    add(scroll6);
+
+    glowDark = new FlxSprite((FreeplayState.CUTOUT_WIDTH * FreeplayState.DJ_POS_MULTI) + -300, 330).loadGraphic(Paths.image('freeplay/beatglow'));
+    glowDark.blend = 9;
+    glowDark.color = 0xFF226F31;
+    add(glowDark);
+
+    glow = new FlxSprite((FreeplayState.CUTOUT_WIDTH * FreeplayState.DJ_POS_MULTI) + -300, 330).loadGraphic(Paths.image('freeplay/beatglow'));
+    glow.blend = 0;
+    glow.color = 0xFF75F184;
+    add(glow);
+
+    glowDark.visible = false;
+    glow.visible = false;
+
+    add(cardGlow);
+  }
+
+  var beatFreq:Int = 1;
+  var beatFreqList:Array<Int> = [1, 2, 4, 8];
+
+  public override function beatHit():Void
+  {
+    beatFreq = beatFreqList[Math.floor(Conductor.instance.bpm / 140)];
+
+    if (Conductor.instance.currentBeat % beatFreq != 0) return;
+    FlxTween.cancelTweensOf(glow);
+    FlxTween.cancelTweensOf(glowDark);
+
+    glow.alpha = 0.8;
+    FlxTween.tween(glow, {alpha: 0}, 16 / 24, {ease: FlxEase.quartOut});
+    glowDark.alpha = 0;
+    FlxTween.tween(glowDark, {alpha: 0.6}, 18 / 24, {ease: FlxEase.quartOut});
+  }
+
+  public override function introDone():Void
+  {
+    super.introDone();
+    pinkBack.color = 0xFF45B245;
+    orangeBackShit.color = 0xFF75F184;
+    alsoOrangeLOL.color = 0xFFB9FFC2;
+
+    scroll1.visible = true;
+    scroll2.visible = true;
+    scroll3.visible = true;
+    scroll4.visible = true;
+    scroll5.visible = true;
+    scroll6.visible = true;
+    glowDark.visible = true;
+    glow.visible = true;
+  }
+
+  public override function confirm():Void
+  {
+    super.confirm();
+    hideLuigiCardDetails();
+  }
+
+  public override function disappear():Void
+  {
+    super.disappear();
+    hideLuigiCardDetails();
+  }
+
+  function hideLuigiCardDetails():Void
+  {
+    scroll1.visible = false;
+    scroll2.visible = false;
+    scroll3.visible = false;
+    scroll4.visible = false;
+    scroll5.visible = false;
+    scroll6.visible = false;
+    glowDark.visible = false;
+    glow.visible = false;
+  }
+}
