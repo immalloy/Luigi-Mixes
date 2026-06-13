@@ -1,0 +1,30 @@
+{
+  "version": "2.2.4",
+  "songName": "Satin Panties (Luigi Mix)",
+  "artist": "Kazoomah",
+  "charter": "Funnyfunker11",
+  "timeFormat": "ms",
+  "divisions": 96,
+  "offsets": { "instrumental": 0 },
+  "timeChanges": [{ "t": 0, "bpm": 110, "n": 4, "d": 4, "bt": [4, 4, 4, 4] }],
+  "looped": false,
+  "playData": {
+    "songVariations": [],
+    "difficulties": ["easy", "normal", "hard"],
+    "characters": {
+      "player": "luigi-player",
+      "girlfriend": "egaddgoo",
+      "opponent": "mom-car",
+      "instrumental": "luigi",
+      "playerVocals": ["luigi"],
+      "opponentVocals": ["mom"],
+      "altInstrumentals": [""]
+    },
+    "stage": "limoRideErect",
+    "noteStyle": "funkin",
+    "ratings": { "easy": 3, "normal": 4, "hard": 5 },
+    "previewStart": 0,
+    "previewEnd": 0
+  },
+  "generatedBy": "Funnyfunker11 (by hand)"
+}

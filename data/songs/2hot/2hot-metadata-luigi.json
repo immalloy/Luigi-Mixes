@@ -1,0 +1,30 @@
+{
+  "version": "2.2.4",
+  "songName": "2hot (Luigi Mix)",
+  "artist": "rhysplayzgamez",
+  "charter": "Funnyfunker11",
+  "timeFormat": "ms",
+  "divisions": 96,
+  "offsets": { "instrumental": 0 },
+  "timeChanges": [{ "t": 0, "bpm": 182, "n": 4, "d": 4, "bt": [4, 4, 4, 4] }],
+  "looped": false,
+  "playData": {
+    "songVariations": [],
+    "difficulties": ["easy", "normal", "hard"],
+    "characters": {
+      "player": "luigi-player",
+      "girlfriend": "egad",
+      "opponent": "darnell",
+      "instrumental": "luigi",
+      "playerVocals": ["luigi"],
+      "opponentVocals": ["darnell"],
+      "altInstrumentals": [""]
+    },
+    "stage": "phillyStreetsErect",
+    "noteStyle": "funkin",
+    "ratings": { "easy": 5, "normal": 8, "hard": 11 },
+    "previewStart": 0.119562607765677,
+    "previewEnd": 0.303572909618701
+  },
+  "generatedBy": "Funnyfunker11 (by hand)"
+}

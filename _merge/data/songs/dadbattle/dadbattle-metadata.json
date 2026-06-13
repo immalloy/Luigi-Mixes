@@ -1,0 +1,12 @@
+[
+	{
+		"op": "add",
+		"path": "/playData/songVariations/-",
+		"value": "luigi"
+	},
+	{
+		"op": "add",
+		"path": "/playData/characters/altInstrumentals/-",
+		"value": "luigi"
+	}
+]

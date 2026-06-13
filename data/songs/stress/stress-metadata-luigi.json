@@ -1,0 +1,44 @@
+{
+ "version": "2.2.4",
+ "songName": "Stress (Luigi Mix)",
+ "artist": "Kazoomah",
+ "charter": "Funnyfunker11",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "luigi-player",
+   "girlfriend": "egaddgoo",
+   "opponent": "tankman-luigi",
+   "instrumental": "luigi",
+   "altInstrumentals": ["", "pico"],
+   "opponentVocals": [
+    "tankman"
+   ],
+   "playerVocals": [
+    "luigi"
+   ]
+  },
+  "stage": "tankmanBattlefieldErect",
+  "noteStyle": "funkin",
+  "ratings": {
+   "easy": 4,
+   "normal": 6,
+   "hard": 9
+  },
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.4",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 178,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

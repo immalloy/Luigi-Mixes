@@ -1,0 +1,205 @@
+{
+	"version": "1.0.0",
+	"renderType": "multianimateatlas",
+	"offsets": [
+		3,
+		-44
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 1,
+	"name": "Tankman",
+	"cameraOffsets": [
+		-3,
+		32
+	],
+	"flipX": false,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"singTime": 8,
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"id": "tankman-luigi",
+		"flipX": false,
+		"isPixel": false,
+		"scale": 1
+	},
+	"assetPath": "shared:characters/tankman/basic",
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false,
+		"swfMode": true
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "idle",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "left",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "down",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "up",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "right",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		},
+		{
+			"offsets": [
+				5,
+				-40
+			],
+			"prefix": "pretty good",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "hehPrettyGood",
+			"flipY": false,
+			"assetPath": "shared:characters/tankman/extra-animations",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				5,
+				-40
+			],
+			"prefix": "ugh",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "ugh",
+			"flipY": false,
+			"assetPath": "shared:characters/tankman/extra-animations",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				-40
+			],
+			"prefix": "laugh",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "laugh",
+			"flipY": false,
+			"assetPath": "shared:characters/tankman/extra-animations",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				5,
+				-40
+			],
+			"prefix": "beat it",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "beat it",
+			"flipY": false,
+			"assetPath": "shared:characters/tankman/extra-animations",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				5,
+				-40
+			],
+			"prefix": "argh",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "augh",
+			"flipY": false,
+			"assetPath": "shared:characters/tankman/extra-animations",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-92,
+				-62
+			],
+			"renderType": "sparrow",
+			"prefix": "weak ass bitch",
+			"animType": "framelabel",
+			"looped": false,
+			"flipX": true,
+			"name": "weakassbitch",
+			"flipY": false,
+			"assetPath": "characters/extrafuckingtankmananims/weakassbitch",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-81,
+				-59
+			],
+			"renderType": "sparrow",
+			"prefix": "what the hell",
+			"animType": "framelabel",
+			"looped": false,
+			"flipX": true,
+			"name": "wth",
+			"flipY": false,
+			"assetPath": "characters/extrafuckingtankmananims/wth",
+			"frameRate": 24
+		}
+	]
+}

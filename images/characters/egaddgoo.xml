@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="E. gadd_gooigi.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="hey pose0000" x="20" y="20" width="811" height="675"/>
+	<SubTexture name="hey pose0001" x="20" y="20" width="811" height="675"/>
+	<SubTexture name="hey pose0002" x="851" y="20" width="811" height="673" frameX="0" frameY="-2" frameWidth="811" frameHeight="675"/>
+	<SubTexture name="hey pose0003" x="851" y="20" width="811" height="673" frameX="0" frameY="-2" frameWidth="811" frameHeight="675"/>
+	<SubTexture name="hey pose0004" x="1682" y="20" width="811" height="673" frameX="0" frameY="-2" frameWidth="811" frameHeight="675"/>
+	<SubTexture name="hey pose0005" x="1682" y="20" width="811" height="673" frameX="0" frameY="-2" frameWidth="811" frameHeight="675"/>
+	<SubTexture name="idle pose0000" x="2513" y="20" width="811" height="646" frameX="0" frameY="-12" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0001" x="2513" y="20" width="811" height="646" frameX="0" frameY="-12" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0002" x="3344" y="20" width="815" height="644" frameX="0" frameY="-14" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0003" x="4179" y="20" width="815" height="644" frameX="0" frameY="-14" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0004" x="5014" y="20" width="817" height="648" frameX="0" frameY="-10" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0005" x="5851" y="20" width="817" height="648" frameX="0" frameY="-10" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0006" x="6688" y="20" width="817" height="654" frameX="0" frameY="-4" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0007" x="20" y="715" width="817" height="657" frameX="0" frameY="-1" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0008" x="857" y="715" width="817" height="657" frameX="0" frameY="-1" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0009" x="1694" y="715" width="817" height="657" frameX="0" frameY="-1" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0010" x="2531" y="715" width="817" height="658"/>
+	<SubTexture name="idle pose0011" x="2531" y="715" width="817" height="658"/>
+	<SubTexture name="idle pose0012" x="2531" y="715" width="817" height="658"/>
+	<SubTexture name="idle pose0013" x="3368" y="715" width="817" height="658"/>
+	<SubTexture name="idle pose0014" x="4205" y="715" width="817" height="658"/>
+	<SubTexture name="idle pose0015" x="4205" y="715" width="817" height="658"/>
+	<SubTexture name="idle pose0016" x="5042" y="715" width="811" height="635" frameX="0" frameY="-23" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0017" x="5042" y="715" width="811" height="635" frameX="0" frameY="-23" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0018" x="5873" y="715" width="815" height="642" frameX="0" frameY="-16" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0019" x="6708" y="715" width="815" height="642" frameX="0" frameY="-16" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0020" x="20" y="1393" width="817" height="650" frameX="0" frameY="-8" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0021" x="857" y="1393" width="817" height="650" frameX="0" frameY="-8" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0022" x="1694" y="1393" width="817" height="653" frameX="0" frameY="-5" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0023" x="2531" y="1393" width="817" height="656" frameX="0" frameY="-2" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0024" x="3368" y="1393" width="817" height="656" frameX="0" frameY="-2" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0025" x="4205" y="1393" width="817" height="656" frameX="0" frameY="-2" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0026" x="5042" y="1393" width="817" height="657" frameX="0" frameY="-1" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0027" x="5042" y="1393" width="817" height="657" frameX="0" frameY="-1" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0028" x="5879" y="1393" width="817" height="657" frameX="0" frameY="-1" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="idle pose0029" x="5879" y="1393" width="817" height="657" frameX="0" frameY="-1" frameWidth="817" frameHeight="658"/>
+	<SubTexture name="missed pose0000" x="6716" y="1393" width="810" height="735"/>
+	<SubTexture name="missed pose0001" x="6716" y="1393" width="810" height="735"/>
+	<SubTexture name="missed pose0002" x="20" y="2148" width="810" height="670" frameX="0" frameY="-65" frameWidth="810" frameHeight="735"/>
+	<SubTexture name="missed pose0003" x="20" y="2148" width="810" height="670" frameX="0" frameY="-65" frameWidth="810" frameHeight="735"/>
+	<SubTexture name="missed pose0004" x="850" y="2148" width="810" height="676" frameX="0" frameY="-59" frameWidth="810" frameHeight="735"/>
+	<SubTexture name="missed pose0005" x="850" y="2148" width="810" height="676" frameX="0" frameY="-59" frameWidth="810" frameHeight="735"/>
+	<SubTexture name="missed pose0006" x="1680" y="2148" width="810" height="676" frameX="0" frameY="-59" frameWidth="810" frameHeight="735"/>
+	<SubTexture name="missed pose0007" x="1680" y="2148" width="810" height="676" frameX="0" frameY="-59" frameWidth="810" frameHeight="735"/>
+	<SubTexture name="missed pose0008" x="2510" y="2148" width="810" height="676" frameX="0" frameY="-59" frameWidth="810" frameHeight="735"/>
+	<SubTexture name="missed pose0009" x="2510" y="2148" width="810" height="676" frameX="0" frameY="-59" frameWidth="810" frameHeight="735"/>
+	<SubTexture name="missed pose0010" x="3340" y="2148" width="810" height="676" frameX="0" frameY="-59" frameWidth="810" frameHeight="735"/>
+	<SubTexture name="missed pose0011" x="3340" y="2148" width="810" height="676" frameX="0" frameY="-59" frameWidth="810" frameHeight="735"/>
+</TextureAtlas>

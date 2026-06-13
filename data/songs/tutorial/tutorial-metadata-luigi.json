@@ -1,0 +1,43 @@
+{
+ "version": "2.2.4",
+ "songName": "Tutorial (Luigi Mix)",
+ "artist": "Holly.RAWR",
+ "charter": "Funnyfunker11",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "luigi-player",
+   "opponent": "gf",
+   "instrumental": "luigi",
+   "altInstrumentals": [""],
+   "opponentVocals": [
+    "gf"
+   ],
+   "playerVocals": [
+    "luigi"
+   ]
+  },
+  "stage": "mainStageErect",
+  "noteStyle": "funkin",
+  "ratings": {
+   "easy": 0,
+   "normal": 1,
+   "hard": 1
+  },
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.4",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 100,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}
