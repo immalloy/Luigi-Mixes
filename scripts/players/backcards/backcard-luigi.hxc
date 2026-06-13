@@ -56,11 +56,11 @@ class LuigiCard extends BackingCard
     super("luigi");
 
     scroll1 = new BGScrollingText(0, 160, pickLuigiLine(), FlxG.width, true, 43);
-    scroll2 = new BGScrollingText(0, 220, pickLuigiLine(), FlxG.width / 2, false, 60);
+    scroll2 = new BGScrollingText(0, 220, pickLuigiLine(), FlxG.width, false, 60);
     scroll3 = new BGScrollingText(0, 285, pickLuigiLine(), FlxG.width / 2, true, 43);
-    scroll4 = new BGScrollingText(0, 335, pickLuigiLine(), FlxG.width / 2, false, 60);
+    scroll4 = new BGScrollingText(0, 335, pickLuigiLine(), FlxG.width, false, 60);
     scroll5 = new BGScrollingText(0, 397, pickLuigiLine(), FlxG.width, true, 43);
-    scroll6 = new BGScrollingText(0, orangeBackShit.y + 10, pickLuigiLine(), FlxG.width / 2, false, 60);
+    scroll6 = new BGScrollingText(0, orangeBackShit.y + 10, pickLuigiLine(), FlxG.width, false, 60);
   }
 
   function pickLuigiLine():String
@@ -160,7 +160,7 @@ class LuigiCard extends BackingCard
     add(scroll1);
 
     scroll2.color = 0xFF145E25;
-    scroll2.speed = -3.8;
+    scroll2.speed = 3.8;
     add(scroll2);
 
     scroll3.color = 0xFFFFFFFF;
@@ -168,7 +168,7 @@ class LuigiCard extends BackingCard
     add(scroll3);
 
     scroll4.color = 0xFF226F31;
-    scroll4.speed = -3.8;
+    scroll4.speed = 3.8;
     add(scroll4);
 
     scroll5.color = 0xFFE9FFEC;
@@ -176,7 +176,7 @@ class LuigiCard extends BackingCard
     add(scroll5);
 
     scroll6.color = 0xFF145E25;
-    scroll6.speed = -3.8;
+    scroll6.speed = 3.8;
     add(scroll6);
 
     glowDark = new FlxSprite((FreeplayState.CUTOUT_WIDTH * FreeplayState.DJ_POS_MULTI) + -300, 330).loadGraphic(Paths.image('freeplay/beatglow'));
