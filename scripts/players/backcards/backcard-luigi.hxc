@@ -4,7 +4,6 @@ import funkin.ui.freeplay.backcards.BackingCard;
 import flixel.FlxSprite;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
-import flixel.util.FlxSpriteUtil;
 import funkin.Conductor;
 
 class LuigiCard extends BackingCard
@@ -18,6 +17,10 @@ class LuigiCard extends BackingCard
 
   var glow:FlxSprite;
   var glowDark:FlxSprite;
+  var scroll2Line:FlxSprite;
+  var scroll4Line:FlxSprite;
+  var scroll6Line:FlxSprite;
+  var showingNervesCollabText:Bool = false;
 
   var luigiLines:Array<String> = [
     "I'm a-Luigi, number one!",
@@ -61,11 +64,40 @@ class LuigiCard extends BackingCard
     scroll4 = new BGScrollingText(0, 335, pickLuigiLine(), FlxG.width, false, 60);
     scroll5 = new BGScrollingText(0, 397, pickLuigiLine(), FlxG.width, true, 43);
     scroll6 = new BGScrollingText(0, orangeBackShit.y + 10, pickLuigiLine(), FlxG.width, false, 60);
+
+    scroll2Line = new FlxSprite(0, scroll2.y - 4).makeGraphic(Std.int(pinkBack.width), 56, 0xFF75F184);
+    scroll4Line = new FlxSprite(0, scroll4.y - 4).makeGraphic(Std.int(pinkBack.width), 56, 0xFF5FE36F);
+    scroll6Line = new FlxSprite(0, scroll6.y - 4).makeGraphic(Std.int(pinkBack.width), 56, 0xFF75F184);
   }
 
   function pickLuigiLine():String
   {
     return luigiLines[FlxG.random.int(0, luigiLines.length - 1)];
+  }
+
+  function updateLuigiScrollTextForNerves(showCollabText:Bool):Void
+  {
+    if (showCollabText == showingNervesCollabText) return;
+
+    showingNervesCollabText = showCollabText;
+
+    if (showCollabText)
+    {
+      scroll1.updateText("Special Collab");
+      scroll2.updateText("Special Collab");
+      scroll3.updateText("Special Collab");
+      scroll4.updateText("Special Collab");
+      scroll5.updateText("Special Collab");
+      scroll6.updateText("Special Collab");
+      return;
+    }
+
+    scroll1.updateText(pickLuigiLine());
+    scroll2.updateText(pickLuigiLine());
+    scroll3.updateText(pickLuigiLine());
+    scroll4.updateText(pickLuigiLine());
+    scroll5.updateText(pickLuigiLine());
+    scroll6.updateText(pickLuigiLine());
   }
 
   public override function applyExitMovers(?exitMovers:FreeplayState.ExitMoverData, ?exitMoversCharSel:FreeplayState.ExitMoverData):Void
@@ -99,8 +131,12 @@ class LuigiCard extends BackingCard
       x: -scroll6.width * 2,
       speed: 0.3
     });
+    exitMovers.set([scroll2Line, scroll4Line, scroll6Line], {
+      x: -pinkBack.width,
+      speed: 0.4
+    });
 
-    exitMoversCharSel.set([scroll1, scroll2, scroll3, scroll4, scroll5, scroll6], {
+    exitMoversCharSel.set([scroll1, scroll2, scroll3, scroll4, scroll5, scroll6, scroll2Line, scroll4Line, scroll6Line], {
       y: -60,
       speed: 0.8,
       wait: 0.1
@@ -126,10 +162,6 @@ class LuigiCard extends BackingCard
     FlxTween.tween(pinkBack, {x: 0}, 0.6, {ease: FlxEase.quartOut});
     add(pinkBack);
 
-    add(orangeBackShit);
-    add(alsoOrangeLOL);
-
-    FlxSpriteUtil.alphaMaskFlxSprite(orangeBackShit, pinkBack, orangeBackShit);
     orangeBackShit.visible = false;
     alsoOrangeLOL.visible = false;
 
@@ -154,12 +186,22 @@ class LuigiCard extends BackingCard
     scroll4.visible = false;
     scroll5.visible = false;
     scroll6.visible = false;
+    scroll2Line.visible = false;
+    scroll4Line.visible = false;
+    scroll6Line.visible = false;
 
-    scroll1.color = 0xFFE9FFEC;
+    scroll2Line.alpha = 0.8;
+    scroll4Line.alpha = 0.72;
+    scroll6Line.alpha = 0.82;
+    add(scroll2Line);
+    add(scroll4Line);
+    add(scroll6Line);
+
+    scroll1.color = 0xFFFFFFFF;
     scroll1.speed = 6.8;
     add(scroll1);
 
-    scroll2.color = 0xFF145E25;
+    scroll2.color = 0xFF073611;
     scroll2.speed = 3.8;
     add(scroll2);
 
@@ -167,15 +209,15 @@ class LuigiCard extends BackingCard
     scroll3.speed = 3.5;
     add(scroll3);
 
-    scroll4.color = 0xFF226F31;
+    scroll4.color = 0xFF0B4518;
     scroll4.speed = 3.8;
     add(scroll4);
 
-    scroll5.color = 0xFFE9FFEC;
+    scroll5.color = 0xFFFFFFFF;
     scroll5.speed = 6.8;
     add(scroll5);
 
-    scroll6.color = 0xFF145E25;
+    scroll6.color = 0xFF062E0F;
     scroll6.speed = 3.8;
     add(scroll6);
 
@@ -216,9 +258,10 @@ class LuigiCard extends BackingCard
   {
     super.introDone();
     pinkBack.color = 0xFF45B245;
-    orangeBackShit.color = 0xFF75F184;
-    alsoOrangeLOL.color = 0xFFB9FFC2;
 
+    scroll2Line.visible = true;
+    scroll4Line.visible = true;
+    scroll6Line.visible = true;
     scroll1.visible = true;
     scroll2.visible = true;
     scroll3.visible = true;
@@ -249,7 +292,26 @@ class LuigiCard extends BackingCard
     scroll4.visible = false;
     scroll5.visible = false;
     scroll6.visible = false;
+    scroll2Line.visible = false;
+    scroll4Line.visible = false;
+    scroll6Line.visible = false;
     glowDark.visible = false;
     glow.visible = false;
+  }
+
+  /**
+   * Called when a capsule is selected.
+   */
+  public override function onCapsuleSelected(event:CapsuleScriptEvent):Void
+  {
+    super.onCapsuleSelected(event);
+
+    var selectedSongId:String = "";
+    if (event != null && event.capsule != null && event.capsule.freeplayData != null)
+    {
+      selectedSongId = event.capsule.freeplayData.songId;
+    }
+
+    updateLuigiScrollTextForNerves(selectedSongId == "nerves");
   }
 }

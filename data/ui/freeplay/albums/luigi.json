@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "Luigi Mix",
+  "artists": ["Luigi Mix"],
+  "albumArtAsset": "freeplay/albumRoll/volume1",
+  "albumTitleAsset": "freeplay/albumRoll/volume1-text",
+  "albumTitleOffsets": [8, 0],
+  "albumOSTName": "LUIGI MIX OST"
+}

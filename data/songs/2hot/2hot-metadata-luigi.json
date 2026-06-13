@@ -9,6 +9,7 @@
   "timeChanges": [{ "t": 0, "bpm": 182, "n": 4, "d": 4, "bt": [4, 4, 4, 4] }],
   "looped": false,
   "playData": {
+    "album": "luigi",
     "songVariations": [],
     "difficulties": ["easy", "normal", "hard"],
     "characters": {
