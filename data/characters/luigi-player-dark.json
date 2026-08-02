@@ -39,8 +39,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				3,
-				40
+				18,
+				35
 			],
 			"frameRate": 24,
 			"prefix": "LUIGI Idle Dance",
@@ -51,8 +51,8 @@
 		},
 		{
 			"offsets": [
-				95,
-				31
+				25,
+				36
 			],
 			"prefix": "left",
 			"frameIndices": [
@@ -76,8 +76,8 @@
 		},
 		{
 			"offsets": [
-				54,
-				-13
+				34,
+				27
 			],
 			"prefix": "down",
 			"frameIndices": [
@@ -101,8 +101,8 @@
 		},
 		{
 			"offsets": [
-				13,
-				73
+				18,
+				38
 			],
 			"prefix": "up",
 			"frameIndices": [
@@ -126,8 +126,8 @@
 		},
 		{
 			"offsets": [
-				54,
-				34
+				13,
+				37
 			],
 			"prefix": "right",
 			"frameIndices": [
@@ -152,8 +152,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				108,
-				70
+				18,
+				30
 			],
 			"frameRate": 24,
 			"prefix": "left miss",
@@ -165,8 +165,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				47,
-				16
+				26,
+				39
 			],
 			"frameRate": 24,
 			"prefix": "down miss",
@@ -179,7 +179,7 @@
 			"flipY": false,
 			"offsets": [
 				12,
-				137
+				37
 			],
 			"frameRate": 24,
 			"prefix": "up miss",
@@ -191,8 +191,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				55,
-				118
+				15,
+				38
 			],
 			"frameRate": 24,
 			"prefix": "right miss",
@@ -204,8 +204,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				20,
-				69
+				15,
+				33
 			],
 			"frameRate": 24,
 			"prefix": "hey",
@@ -217,8 +217,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				68,
-				138
+				13,
+				71
 			],
 			"frameRate": 24,
 			"prefix": "cheer",
