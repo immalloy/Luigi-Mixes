@@ -1,33 +1,231 @@
 {
-  "version": "1.0.0",
-  "name": "Luigi (Player, Dark)",
-  "renderType": "sparrow",
-  "assetPath": "characters/luigi-dark",
-  "startingAnimation": "idle",
-  "offsets": [17, 14],
-  "cameraOffsets": [-18, 36],
-  "flipX": true,
-  "isPixel": false,
-  "scale": 1,
-  "singTime": 8,
-  "danceEvery": 1,
-  "healthIcon": {
-    "id": "luigi",
-    "isPixel": false,
-    "flipX": false,
-    "scale": 1
-  },
-  "animations": [
-    { "name": "idle", "prefix": "LUIGI Idle Dance", "offsets": [18, 35], "frameRate": 24 },
-    { "name": "singLEFT", "prefix": "left", "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "offsets": [25, 36], "frameRate": 24 },
-    { "name": "singDOWN", "prefix": "down", "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "offsets": [34, 27], "frameRate": 24 },
-    { "name": "singUP", "prefix": "up", "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "offsets": [18, 38], "frameRate": 24 },
-    { "name": "singRIGHT", "prefix": "right", "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "offsets": [13, 37], "frameRate": 24 },
-    { "name": "singLEFTmiss", "prefix": "left miss", "offsets": [18, 30], "frameRate": 24 },
-    { "name": "singDOWNmiss", "prefix": "down miss", "offsets": [26, 39], "frameRate": 24 },
-    { "name": "singUPmiss", "prefix": "up miss", "offsets": [12, 37], "frameRate": 24 },
-    { "name": "singRIGHTmiss", "prefix": "right miss", "offsets": [15, 38], "frameRate": 24 },
-    { "name": "hey", "prefix": "hey", "offsets": [15, 33], "frameRate": 24 },
-    { "name": "cheer", "prefix": "cheer", "offsets": [13, 71], "frameRate": 24 }
-  ]
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		17,
+		14
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 1,
+	"name": "Luigi (Player, Dark)",
+	"cameraOffsets": [
+		-18,
+		36
+	],
+	"flipX": true,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"singTime": 8,
+	"assetPath": "characters/luigi-dark",
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"id": "luigi",
+		"flipX": false
+	},
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false,
+		"swfMode": true
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				3,
+				40
+			],
+			"frameRate": 24,
+			"prefix": "LUIGI Idle Dance",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				95,
+				31
+			],
+			"prefix": "left",
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			],
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				54,
+				-13
+			],
+			"prefix": "down",
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			],
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				13,
+				73
+			],
+			"prefix": "up",
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			],
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				54,
+				34
+			],
+			"prefix": "right",
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			],
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				108,
+				70
+			],
+			"frameRate": 24,
+			"prefix": "left miss",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				47,
+				16
+			],
+			"frameRate": 24,
+			"prefix": "down miss",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				12,
+				137
+			],
+			"frameRate": 24,
+			"prefix": "up miss",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				55,
+				118
+			],
+			"frameRate": 24,
+			"prefix": "right miss",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				20,
+				69
+			],
+			"frameRate": 24,
+			"prefix": "hey",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "hey"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				68,
+				138
+			],
+			"frameRate": 24,
+			"prefix": "cheer",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "cheer"
+		}
+	]
 }
