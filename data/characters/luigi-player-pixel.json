@@ -11,7 +11,7 @@
   "healthIcon": {
     "id": "luigi-pixel",
     "isPixel": true,
-    "flipX": true,
+    "flipX": false,
     "scale": 1
   },
   "animations": [

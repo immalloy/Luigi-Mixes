@@ -4,13 +4,13 @@
   "titleAsset": "storymenu/titles/weekl",
   "props": [
     {
-      "assetPath": "storymenu/props/dad",
-      "scale": 1.0,
-      "offsets": [100, 60],
+      "assetPath": "storymenu/props/luigi_menu_opp",
+      "scale": 0.55,
+      "offsets": [100, -70],
       "animations": [
         {
           "name": "idle",
-          "prefix": "idle0",
+          "prefix": "LUIGI Idle Dance",
           "frameRate": 24
         }
       ]
