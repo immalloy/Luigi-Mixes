@@ -3,7 +3,8 @@
   "name": "Luigi",
   "ownedChars": [
     "luigi",
-    "luigi-player"
+    "luigi-player",
+    "luigi-player-pixel"
   ],
   "showUnownedChars": false,
   "unlocked": true,
