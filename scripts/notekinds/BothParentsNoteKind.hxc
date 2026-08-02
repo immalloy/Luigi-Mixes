@@ -1,0 +1,10 @@
+import funkin.play.notes.notekind.ScriptedNoteKind;
+
+/**
+ * Apply this kind to an opponent note to make both Week 5 parents sing it.
+ */
+class BothParentsNoteKind extends ScriptedNoteKind {
+  function new() {
+    super('Both Parents', 'Use on opponent notes to make both parents sing.', null, null, false, 'both');
+  }
+}

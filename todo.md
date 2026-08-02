@@ -4,6 +4,7 @@ checklist to keep track of what still needs to be added, fixed, or finished.
 
 ## Still To Do
 
+- [ ] Chart the `Both Parents` note kind on Cocoa's Week 5 opponent notes.
 - [ ] Configure character
 - [ ] Add the song audio
 - [ ] Add the chart files

@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "name": "Luigi (Player, Pixel)",
+  "renderType": "sparrow",
+  "assetPath": "characters/luigiPixel",
+  "startingAnimation": "idle",
+  "isPixel": true,
+  "scale": 6,
+  "flipX": true,
+  "singTime": 8,
+  "healthIcon": {
+    "id": "luigi-pixel",
+    "isPixel": true,
+    "flipX": true,
+    "scale": 1
+  },
+  "animations": [
+    { "name": "idle", "prefix": "idle", "offsets": [0, 0], "frameRate": 24 },
+    { "name": "singLEFT", "prefix": "left", "frameIndices": [0, 1], "offsets": [0, 0], "frameRate": 24 },
+    { "name": "singDOWN", "prefix": "down", "frameIndices": [0, 1], "offsets": [0, 0], "frameRate": 24 },
+    { "name": "singUP", "prefix": "up", "frameIndices": [0, 1], "offsets": [0, 0], "frameRate": 24 },
+    { "name": "singRIGHT", "prefix": "right", "frameIndices": [0, 1], "offsets": [0, 0], "frameRate": 24 },
+    { "name": "singLEFTmiss", "prefix": "leftMISS", "offsets": [0, 0], "frameRate": 24 },
+    { "name": "singDOWNmiss", "prefix": "downMISS", "offsets": [0, 0], "frameRate": 24 },
+    { "name": "singUPmiss", "prefix": "upMISS", "offsets": [0, 0], "frameRate": 24 },
+    { "name": "singRIGHTmiss", "prefix": "rightMISS", "offsets": [0, 0], "frameRate": 24 },
+    { "name": "hey", "prefix": "hey", "offsets": [0, 0], "frameRate": 24 },
+    { "name": "cheer", "prefix": "cheer", "offsets": [0, 0], "frameRate": 24 }
+  ]
+}

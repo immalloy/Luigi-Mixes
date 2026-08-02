@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="egaddPixel.png">
+
+	<SubTexture name="EGADD idle 000" x="0" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 001" x="0" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 002" x="133" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 003" x="133" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 004" x="133" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 005" x="266" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 006" x="266" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 007" x="266" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 008" x="266" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 009" x="399" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 010" x="399" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 011" x="399" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 012" x="399" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 013" x="532" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 014" x="532" y="0" width="133" height="120"/>
+	<SubTexture name="EGADD idle 015" x="0" y="120" width="133" height="120"/>
+	<SubTexture name="EGADD idle 016" x="0" y="120" width="133" height="120"/>
+	<SubTexture name="EGADD idle 017" x="133" y="120" width="133" height="120"/>
+	<SubTexture name="EGADD idle 018" x="133" y="120" width="133" height="120"/>
+	<SubTexture name="EGADD idle 019" x="266" y="120" width="133" height="120"/>
+	<SubTexture name="EGADD idle 020" x="266" y="120" width="133" height="120"/>
+	<SubTexture name="EGADD idle 021" x="399" y="120" width="133" height="120"/>
+	<SubTexture name="EGADD idle 022" x="399" y="120" width="133" height="120"/>
+	<SubTexture name="EGADD idle 023" x="399" y="120" width="133" height="120"/>
+	<SubTexture name="EGADD idle 024" x="399" y="120" width="133" height="120"/>
+	<SubTexture name="EGADD idle 025" x="399" y="120" width="133" height="120"/>
+	<SubTexture name="EGADD idle 026" x="532" y="120" width="133" height="120"/>
+	<SubTexture name="EGADD idle 027" x="532" y="120" width="133" height="120"/>
+	<SubTexture name="EGADD idle 028" x="532" y="120" width="133" height="120"/>
+	<SubTexture name="EGADD idle 029" x="532" y="120" width="133" height="120"/>
+
+	<SubTexture name="EGADD missed 000" x="0" y="240" width="133" height="120"/>
+	<SubTexture name="EGADD missed 001" x="0" y="240" width="133" height="120"/>
+	<SubTexture name="EGADD missed 002" x="133" y="240" width="133" height="120"/>
+	<SubTexture name="EGADD missed 003" x="133" y="240" width="133" height="120"/>
+	<SubTexture name="EGADD missed 004" x="266" y="240" width="133" height="120"/>
+	<SubTexture name="EGADD missed 005" x="266" y="240" width="133" height="120"/>
+	<SubTexture name="EGADD missed 006" x="399" y="240" width="133" height="120"/>
+	<SubTexture name="EGADD missed 007" x="399" y="240" width="133" height="120"/>
+	<SubTexture name="EGADD missed 008" x="532" y="240" width="133" height="120"/>
+	<SubTexture name="EGADD missed 009" x="532" y="240" width="133" height="120"/>
+	<SubTexture name="EGADD missed 010" x="532" y="240" width="133" height="120"/>
+	<SubTexture name="EGADD missed 011" x="532" y="240" width="133" height="120"/>
+	<SubTexture name="EGADD missed 012" x="532" y="240" width="133" height="120"/>
+	<SubTexture name="EGADD missed 013" x="532" y="240" width="133" height="120"/>
+	<SubTexture name="EGADD missed 014" x="532" y="240" width="133" height="120"/>
+
+	<SubTexture name="EGADD hey 000" x="0" y="360" width="133" height="120"/>
+	<SubTexture name="EGADD hey 001" x="0" y="360" width="133" height="120"/>
+	<SubTexture name="EGADD hey 002" x="133" y="360" width="133" height="120"/>
+	<SubTexture name="EGADD hey 003" x="133" y="360" width="133" height="120"/>
+	<SubTexture name="EGADD hey 004" x="266" y="360" width="133" height="120"/>
+	<SubTexture name="EGADD hey 005" x="266" y="360" width="133" height="120"/>
+	<SubTexture name="EGADD hey 006" x="266" y="360" width="133" height="120"/>
+	<SubTexture name="EGADD hey 007" x="266" y="360" width="133" height="120"/>
+	<SubTexture name="EGADD hey 008" x="266" y="360" width="133" height="120"/>
+
+
+</TextureAtlas>
